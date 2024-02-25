@@ -1,0 +1,25 @@
+<div class="todo mx-5 p-3">
+    <div class="head d-flex justify-content-between">
+        <div class="d-flex">
+            <h3 class=""><strong>Todo</strong></h3>
+            <div class="circle mx-2">{{count}}</div>
+        </div>
+        <button class="btn btn-primary" onClick="">Clear All</button>  
+    </div>
+    <hr>
+    <div class="todo-body m-3 row">
+        @for(task of taskList; track task.id){
+            <section class="card col-4">
+                <div class="head d-flex justify-content-between">
+                    <h3>{{task.data}}</h3>
+                    <div>
+                        <i class="bi bi-pencil-square mx-2" (click)="onEdit()"></i>
+                        <i class="bi bi-trash" (click)="onRemove(task.id)"></i>
+                    </div>
+                </div>
+                <p>{{task.time}}</p>
+            </section>
+        }
+    </div>
+   
+</div>

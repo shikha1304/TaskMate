@@ -1,0 +1,15 @@
+<div class="task m-3 p-4 d-flex ">
+
+    <form #form="ngForm" (ngSubmit)="onSubmit(form)">
+        <input ngModel class="p-2" type="text" placeholder="add task" name="data">
+        <button class="btn btn-md px-4" type="submit">Add</button>
+    </form>
+
+    @if(update){
+        <div>
+            <input ngModel class="p-2" type="text" placeholder="add task">
+            <button class="btn btn-md px-4" type="submit" (click)="onUpdate()">Update</button>
+        </div>
+    }
+    
+</div>

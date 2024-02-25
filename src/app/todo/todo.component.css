@@ -1,0 +1,42 @@
+.todo{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+
+.circle{
+    background-color: rgb(214, 212, 212);
+    border-radius: 50%;
+    width: 30px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.card{
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    border-left-color: rgb(144, 144, 255);
+    border-left-width: 7px;
+    border-radius: 7px;
+}
+
+.card:hover{
+    background-color: rgba(250, 244, 244, 0.877);
+}
+
+i.bi-pencil-square{
+    cursor: pointer;
+    font-size: 18px;
+    color: blue;
+}
+
+i.bi-trash{
+    cursor: pointer;
+    font-size: 18px;
+    color: #D82148;
+}
+
+p{
+    font-size: 10px;
+}
