@@ -1,6 +1,11 @@
-# Practice
+# TaskMate
+A web application designed to plan and manage your tasks and schedules. This is a complete frontend project developed using **Angular** and **Typescript**. **Json-server** is used as the pseudo database.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
+
+## Screenshots
+
+![App Screenshot](https://github.com/shikha1304/TaskMate/blob/f2df4657aa8e9de61aed506343d3b308a617ecb2/Screenshot%20(1).png)
 
 ## Development server
 
